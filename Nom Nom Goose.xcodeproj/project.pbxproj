@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA8B03115A1EFAA00C8C151 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8B03015A1EFAA00C8C151 /* UIKit.framework */; };
+		3FA8B03315A1EFAA00C8C151 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8B03215A1EFAA00C8C151 /* Foundation.framework */; };
+		3FA8B03515A1EFAA00C8C151 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8B03415A1EFAA00C8C151 /* CoreGraphics.framework */; };
+		3FA8B03B15A1EFAA00C8C151 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8B03915A1EFAA00C8C151 /* InfoPlist.strings */; };
+		3FA8B03D15A1EFAA00C8C151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8B03C15A1EFAA00C8C151 /* main.m */; };
+		3FA8B04115A1EFAA00C8C151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8B04015A1EFAA00C8C151 /* AppDelegate.m */; };
+		3FA8B04415A1EFAA00C8C151 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8B04215A1EFAA00C8C151 /* MainStoryboard.storyboard */; };
+		3FA8B04715A1EFAA00C8C151 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8B04615A1EFAA00C8C151 /* ViewController.m */; };
+		3FA8B04F15A1EFAA00C8C151 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8B04E15A1EFAA00C8C151 /* SenTestingKit.framework */; };
+		3FA8B05015A1EFAA00C8C151 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8B03015A1EFAA00C8C151 /* UIKit.framework */; };
+		3FA8B05115A1EFAA00C8C151 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8B03215A1EFAA00C8C151 /* Foundation.framework */; };
+		3FA8B05915A1EFAA00C8C151 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8B05715A1EFAA00C8C151 /* InfoPlist.strings */; };
+		3FA8B05C15A1EFAA00C8C151 /* Nom_Nom_GooseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8B05B15A1EFAA00C8C151 /* Nom_Nom_GooseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA8B05215A1EFAA00C8C151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA8B02315A1EFAA00C8C151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA8B02B15A1EFAA00C8C151;
+			remoteInfo = "Nom Nom Goose";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA8B02C15A1EFAA00C8C151 /* Nom Nom Goose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nom Nom Goose.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA8B03015A1EFAA00C8C151 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FA8B03215A1EFAA00C8C151 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FA8B03415A1EFAA00C8C151 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FA8B03815A1EFAA00C8C151 /* Nom Nom Goose-Info.plist */ = {isa = PBXFileReference; path = "Nom Nom Goose-Info.plist"; sourceTree = "<group>"; };
+		3FA8B03A15A1EFAA00C8C151 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FA8B03C15A1EFAA00C8C151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FA8B03E15A1EFAA00C8C151 /* Nom Nom Goose-Prefix.pch */ = {isa = PBXFileReference; path = "Nom Nom Goose-Prefix.pch"; sourceTree = "<group>"; };
+		3FA8B03F15A1EFAA00C8C151 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FA8B04015A1EFAA00C8C151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FA8B04315A1EFAA00C8C151 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3FA8B04515A1EFAA00C8C151 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3FA8B04615A1EFAA00C8C151 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FA8B04D15A1EFAA00C8C151 /* Nom Nom GooseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nom Nom GooseTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA8B04E15A1EFAA00C8C151 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3FA8B05615A1EFAA00C8C151 /* Nom Nom GooseTests-Info.plist */ = {isa = PBXFileReference; path = "Nom Nom GooseTests-Info.plist"; sourceTree = "<group>"; };
+		3FA8B05815A1EFAA00C8C151 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FA8B05A15A1EFAA00C8C151 /* Nom_Nom_GooseTests.h */ = {isa = PBXFileReference; path = Nom_Nom_GooseTests.h; sourceTree = "<group>"; };
+		3FA8B05B15A1EFAA00C8C151 /* Nom_Nom_GooseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nom_Nom_GooseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA8B02915A1EFAA00C8C151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8B03115A1EFAA00C8C151 /* UIKit.framework in Frameworks */,
+				3FA8B03315A1EFAA00C8C151 /* Foundation.framework in Frameworks */,
+				3FA8B03515A1EFAA00C8C151 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8B04915A1EFAA00C8C151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8B04F15A1EFAA00C8C151 /* SenTestingKit.framework in Frameworks */,
+				3FA8B05015A1EFAA00C8C151 /* UIKit.framework in Frameworks */,
+				3FA8B05115A1EFAA00C8C151 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA8B02115A1EFAA00C8C151 = {
+			isa = PBXGroup;
+			children = (
+				3FA8B03615A1EFAA00C8C151 /* Nom Nom Goose */,
+				3FA8B05415A1EFAA00C8C151 /* Nom Nom GooseTests */,
+				3FA8B02F15A1EFAA00C8C151 /* Frameworks */,
+				3FA8B02D15A1EFAA00C8C151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA8B02D15A1EFAA00C8C151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8B02C15A1EFAA00C8C151 /* Nom Nom Goose.app */,
+				3FA8B04D15A1EFAA00C8C151 /* Nom Nom GooseTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA8B02F15A1EFAA00C8C151 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8B03015A1EFAA00C8C151 /* UIKit.framework */,
+				3FA8B03215A1EFAA00C8C151 /* Foundation.framework */,
+				3FA8B03415A1EFAA00C8C151 /* CoreGraphics.framework */,
+				3FA8B04E15A1EFAA00C8C151 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FA8B03615A1EFAA00C8C151 /* Nom Nom Goose */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8B03F15A1EFAA00C8C151 /* AppDelegate.h */,
+				3FA8B04015A1EFAA00C8C151 /* AppDelegate.m */,
+				3FA8B04215A1EFAA00C8C151 /* MainStoryboard.storyboard */,
+				3FA8B04515A1EFAA00C8C151 /* ViewController.h */,
+				3FA8B04615A1EFAA00C8C151 /* ViewController.m */,
+				3FA8B03715A1EFAA00C8C151 /* Supporting Files */,
+			);
+			path = "Nom Nom Goose";
+			sourceTree = "<group>";
+		};
+		3FA8B03715A1EFAA00C8C151 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8B03815A1EFAA00C8C151 /* Nom Nom Goose-Info.plist */,
+				3FA8B03915A1EFAA00C8C151 /* InfoPlist.strings */,
+				3FA8B03C15A1EFAA00C8C151 /* main.m */,
+				3FA8B03E15A1EFAA00C8C151 /* Nom Nom Goose-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FA8B05415A1EFAA00C8C151 /* Nom Nom GooseTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8B05A15A1EFAA00C8C151 /* Nom_Nom_GooseTests.h */,
+				3FA8B05B15A1EFAA00C8C151 /* Nom_Nom_GooseTests.m */,
+				3FA8B05515A1EFAA00C8C151 /* Supporting Files */,
+			);
+			path = "Nom Nom GooseTests";
+			sourceTree = "<group>";
+		};
+		3FA8B05515A1EFAA00C8C151 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8B05615A1EFAA00C8C151 /* Nom Nom GooseTests-Info.plist */,
+				3FA8B05715A1EFAA00C8C151 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA8B02B15A1EFAA00C8C151 /* Nom Nom Goose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA8B05F15A1EFAA00C8C151 /* Build configuration list for PBXNativeTarget "Nom Nom Goose" */;
+			buildPhases = (
+				3FA8B02815A1EFAA00C8C151 /* Sources */,
+				3FA8B02915A1EFAA00C8C151 /* Frameworks */,
+				3FA8B02A15A1EFAA00C8C151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nom Nom Goose";
+			productName = "Nom Nom Goose";
+			productReference = 3FA8B02C15A1EFAA00C8C151 /* Nom Nom Goose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA8B04C15A1EFAA00C8C151 /* Nom Nom GooseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA8B06215A1EFAA00C8C151 /* Build configuration list for PBXNativeTarget "Nom Nom GooseTests" */;
+			buildPhases = (
+				3FA8B04815A1EFAA00C8C151 /* Sources */,
+				3FA8B04915A1EFAA00C8C151 /* Frameworks */,
+				3FA8B04A15A1EFAA00C8C151 /* Resources */,
+				3FA8B04B15A1EFAA00C8C151 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA8B05315A1EFAA00C8C151 /* PBXTargetDependency */,
+			);
+			name = "Nom Nom GooseTests";
+			productName = "Nom Nom GooseTests";
+			productReference = 3FA8B04D15A1EFAA00C8C151 /* Nom Nom GooseTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA8B02315A1EFAA00C8C151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3FA8B02615A1EFAA00C8C151 /* Build configuration list for PBXProject "Nom Nom Goose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FA8B02115A1EFAA00C8C151;
+			productRefGroup = 3FA8B02D15A1EFAA00C8C151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA8B02B15A1EFAA00C8C151 /* Nom Nom Goose */,
+				3FA8B04C15A1EFAA00C8C151 /* Nom Nom GooseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA8B02A15A1EFAA00C8C151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8B03B15A1EFAA00C8C151 /* InfoPlist.strings in Resources */,
+				3FA8B04415A1EFAA00C8C151 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8B04A15A1EFAA00C8C151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8B05915A1EFAA00C8C151 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FA8B04B15A1EFAA00C8C151 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA8B02815A1EFAA00C8C151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8B03D15A1EFAA00C8C151 /* main.m in Sources */,
+				3FA8B04115A1EFAA00C8C151 /* AppDelegate.m in Sources */,
+				3FA8B04715A1EFAA00C8C151 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8B04815A1EFAA00C8C151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8B05C15A1EFAA00C8C151 /* Nom_Nom_GooseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA8B05315A1EFAA00C8C151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA8B02B15A1EFAA00C8C151 /* Nom Nom Goose */;
+			targetProxy = 3FA8B05215A1EFAA00C8C151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA8B03915A1EFAA00C8C151 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA8B03A15A1EFAA00C8C151 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FA8B04215A1EFAA00C8C151 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA8B04315A1EFAA00C8C151 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA8B05715A1EFAA00C8C151 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA8B05815A1EFAA00C8C151 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA8B05D15A1EFAA00C8C151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FA8B05E15A1EFAA00C8C151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA8B06015A1EFAA00C8C151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nom Nom Goose/Nom Nom Goose-Prefix.pch";
+				INFOPLIST_FILE = "Nom Nom Goose/Nom Nom Goose-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FA8B06115A1EFAA00C8C151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nom Nom Goose/Nom Nom Goose-Prefix.pch";
+				INFOPLIST_FILE = "Nom Nom Goose/Nom Nom Goose-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3FA8B06315A1EFAA00C8C151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nom Nom Goose.app/Nom Nom Goose";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nom Nom Goose/Nom Nom Goose-Prefix.pch";
+				INFOPLIST_FILE = "Nom Nom GooseTests/Nom Nom GooseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3FA8B06415A1EFAA00C8C151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nom Nom Goose.app/Nom Nom Goose";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nom Nom Goose/Nom Nom Goose-Prefix.pch";
+				INFOPLIST_FILE = "Nom Nom GooseTests/Nom Nom GooseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA8B02615A1EFAA00C8C151 /* Build configuration list for PBXProject "Nom Nom Goose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA8B05D15A1EFAA00C8C151 /* Debug */,
+				3FA8B05E15A1EFAA00C8C151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA8B05F15A1EFAA00C8C151 /* Build configuration list for PBXNativeTarget "Nom Nom Goose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA8B06015A1EFAA00C8C151 /* Debug */,
+				3FA8B06115A1EFAA00C8C151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA8B06215A1EFAA00C8C151 /* Build configuration list for PBXNativeTarget "Nom Nom GooseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA8B06315A1EFAA00C8C151 /* Debug */,
+				3FA8B06415A1EFAA00C8C151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA8B02315A1EFAA00C8C151 /* Project object */;
+}
